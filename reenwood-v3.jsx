@@ -5,7 +5,7 @@ const ACTIVE_MAX = 30;
 const TAXI_MAX   = 5;
 const PASSWORD   = "reenwood2026";
 const MFL_LEAGUE_ID = "49712";
-const MFL_SEASON    = "2025";
+const MFL_SEASON    = "2026";
 // Proxy MFL API through allorigins to avoid CORS
 const mflProxy = (url) =>
   `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
