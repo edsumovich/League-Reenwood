@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/api/mfl"
+  to = "/.netlify/functions/mfl"
+  status = 200
+
+[[redirects]]
+  from = "/api/playerpool"
+  to = "/.netlify/functions/playerpool"
+  status = 200
